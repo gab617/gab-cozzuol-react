@@ -1,0 +1,55 @@
+header {
+    background: no-repeat url("https://www.acozzuol.com.ar/eng/img/header_fondo.png");
+    background-position: center top;
+    width: 100%;
+    height: 20vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+#a-home {
+    margin-left: 2em;
+}
+
+#idiomas {
+    margin-top: .5em;
+}
+
+#header nav {
+    margin-top: 2.5em;
+    margin-left: 15em;
+
+}
+
+#nav-options ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#nav-options ul li {
+    margin-right: 3em;
+}
+
+#div-img-logo-cozz{
+    display: flex;
+    justify-content: center;
+
+}
+#div-img-logo-cozz a{
+    margin-top: .3em;
+    margin-right: 40em;
+}

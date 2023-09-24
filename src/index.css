@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+#root{
+  background: no-repeat url("https://www.acozzuol.com.ar/img/fondo_main.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Fija la imagen de fondo para que no se desplace con el contenido */
+  background-attachment: fixed;
+  /* Asegura que la imagen de fondo cubra toda la pantalla */
+  width: 100%;
+  height: 100%;
+  
+}
+
+.content-page{
+  background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  /* Fija la imagen de fondo para que no se desplace con el contenido */
+  /* Asegura que la imagen de fondo cubra toda la pantalla */
+}
+
+#cont-slide {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-slide {
+  margin-top: 2em;
+}
+
+.cont-info {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#info {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+
+}
+
+.info-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 1.5em;
+  width: 100%;
+  height: 100%;
+}
+
+.info-link:last-child {
+  margin-right: 0;
+}
+
+.info-link a {
+  height: 20%;
+
+}
+
+.info-link p {
+  width: 90%;
+}
+
+#footer-page {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 2em;
+
+}
+
+#footer-img-div{
+  width: 100%;
+}
+#footer-page img{
+  width: 100%; /* Hace que la imagen ocupe el 100% del ancho del div */
+  height: 100%; /* Hace que la imagen ocupe el 100% de la altura del div */
+  object-fit: cover; /* Escala la imagen para que cubra todo el espacio del div */
+  object-position: center; /* Centra la imagen en el div si hay recorte */
+
+}
+
+
