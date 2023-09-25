@@ -1,10 +1,10 @@
 import './App.css'
-import { Footer } from './components/Footer/Footer'
-import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer'
+import { Header } from './components/Header'
 import { Home } from './components/Home/Home'
 import {headerData} from './assets/dataPage.json'
 import { Route } from "wouter"
-import { About } from './components/About/About'
+import { About } from './components/About'
 
 function App() {
 
