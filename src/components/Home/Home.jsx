@@ -1,4 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Anchor } from "../Header/Anchor";
+import {infoData} from '../../assets/dataPage.json'
+import {infoDataText} from '../../assets/dataPage.json'
 
 export function Home() {
     return (
@@ -15,16 +18,16 @@ export function Home() {
             <div className='cont-info'>
                 <div id='info'>
                     <div className='info-link'>
-                        <Anchor imgUrl={"https://www.acozzuol.com.ar/eng/img/footer_tit_1_eng.png"} />
-                        <p>The company{"'"}s ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field.</p>
+                        <Anchor imgUrl={infoData[0].imgUrl} />
+                        <p>{infoDataText[0].textInfo}</p>
                     </div>
                     <div className='info-link' >
-                        <Anchor imgUrl={"https://www.acozzuol.com.ar/eng/img/footer_tit_2_eng.png"} />
-                        <p>Since 1953, we have acquired deep knowledge and experience that allow us to offer an excellent service for the Full Development of Projects.</p>
+                        <Anchor imgUrl={infoData[1].imgUrl} />
+                        <p>{infoDataText[1].textInfo}</p>
                     </div>
                     <div className='info-link' >
-                        <Anchor imgUrl={"https://www.acozzuol.com.ar/eng/img/footer_tit_3_eng.png"} />
-                        <p>Our production units are strategically located to supply an effective and efficient service to our customers.</p>
+                        <Anchor imgUrl={infoData[2].imgUrl} />
+                        <p>{infoDataText[2].textInfo}</p>
                     </div>
                 </div>
             </div>

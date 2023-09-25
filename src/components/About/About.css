@@ -1,0 +1,42 @@
+#About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+#about-selection{
+    width: 30vh;
+    height: 42vh;
+}
+
+#cont-about-selection{
+    display: flex;
+    flex-direction: column;
+}
+#cont-about-selection img{
+    width: 10vh;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+#cont-about-selection a{
+    margin-left: 2em;
+    margin-top: .3em;
+    text-decoration: none;
+    color: white;
+}
+
+.info-selection{
+    width: 65%;
+}
+
+#text-history{
+    display: flex;
+    width: 100%;
+}
+#text-history p{
+    margin-right: 2em;
+}
+#text-history p:last-child{
+    margin-right:0;
+}

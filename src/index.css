@@ -22,13 +22,13 @@ ul {
   background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
   background-size: cover;
   background-position: center;
-  width: 60%;
+  width: 120vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-
   /* Fija la imagen de fondo para que no se desplace con el contenido */
   /* Asegura que la imagen de fondo cubra toda la pantalla */
 }
@@ -71,9 +71,8 @@ ul {
   margin-right: 0;
 }
 
-.info-link a {
+.info-link .a {
   height: 20%;
-
 }
 
 .info-link p {

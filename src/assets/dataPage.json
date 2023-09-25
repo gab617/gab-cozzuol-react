@@ -1,0 +1,77 @@
+{
+    "headerData": [
+        {
+            "label": "Home",
+            "path": "/home",
+            "component": "Home",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_home.png"
+        },
+        {
+            "label": "",
+            "path": "/index",
+            "component": "EspañolIcono",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_esp.png"
+        },
+        {
+            "label": "",
+            "path": "/eng/index",
+            "component": "InglesIcono",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng.png"
+        },
+        {
+            "label": "",
+            "path": "/eng/index",
+            "component": "AlbanoCouzzuoImage",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/logo.png"
+        },
+        {
+            "label": "About us",
+            "path": "/about",
+            "component": "About",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_about.png"
+        },
+        {
+            "label": "Products",
+            "path": "/products",
+            "component": "Products",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_prod.png"
+        },
+        {
+            "label": "Custormes",
+            "path": "/customers",
+            "component": "Customers",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_custom.png"
+        },
+        {
+            "label": "Contact",
+            "path": "/contact",
+            "component": "Contact",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_contact.png"
+        }
+    ],
+    "infoData": [
+        {
+            "path": "",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/footer_tit_1_eng.png"
+        },
+        {
+            "path": "",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/footer_tit_2_eng.png"
+        },
+        {
+            "path": "",
+            "imgUrl": "https://www.acozzuol.com.ar/eng/img/footer_tit_3_eng.png"
+        }
+    ],
+    "infoDataText":[
+        {
+            "textInfo":"The company's ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field."
+        },
+        {
+            "textInfo":"Since 1953, we have acquired deep knowledge and experience that allow us to offer an excellent service for the Full Development of Projects."
+        },
+        {
+            "textInfo":"Our production units are strategically located to supply an effective and efficient service to our customers."
+        }
+    ]
+}
