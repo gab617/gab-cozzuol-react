@@ -2,7 +2,7 @@
     "headerData": [
         {
             "label": "Home",
-            "path": "/home",
+            "path": "/",
             "component": "Home",
             "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_home.png"
         },

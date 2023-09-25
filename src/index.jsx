@@ -16,7 +16,7 @@ function App() {
 
         <Route
           component={Home}
-          path="/home"
+          path="/"
         />
         <Route
           component= {About}
