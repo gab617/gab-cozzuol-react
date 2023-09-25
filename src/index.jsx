@@ -20,7 +20,7 @@ function App() {
         />
         <Route
           component= {About}
-          path= '/about'
+          path= '/#/about'
         />
 
         <Footer />
