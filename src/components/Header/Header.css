@@ -46,7 +46,7 @@ header {
 
 #div-img-logo-cozz{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 #div-img-logo-cozz .a{

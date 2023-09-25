@@ -1,11 +1,12 @@
+import { Link } from "wouter";
 
 // eslint-disable-next-line react/prop-types
 export function Anchor({imgUrl, path}){
     return(
         <>
-            <a href={`#${path}`} className="a">
+            <Link to={`${path}`} className="a">
                 <img src={imgUrl} alt="" />
-            </a>
+            </Link>
         </>
     )
 }
