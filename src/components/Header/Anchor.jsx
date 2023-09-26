@@ -5,7 +5,7 @@ export function Anchor({imgUrl, path}){
     return(
         <>
             <Link to={`${path}`} className="a">
-                <img src={imgUrl} alt="" />
+                <img src={imgUrl} alt=" " />
             </Link>
         </>
     )

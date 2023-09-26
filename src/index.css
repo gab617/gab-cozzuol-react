@@ -18,12 +18,13 @@ ul {
   
 }
 
+
+
 .content-page{
   background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
   background-size: cover;
   background-position: center;
   width: 120vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;

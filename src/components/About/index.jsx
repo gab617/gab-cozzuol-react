@@ -1,3 +1,4 @@
+import { Link } from "wouter"
 import "./About.css"
 
 export function About() {
@@ -15,10 +16,10 @@ export function About() {
             <div id="about-selection" >
                 <div id="cont-about-selection" style={style}>
                     <img src="https://www.acozzuol.com.ar/eng/img/about_tit_eng.png" alt="" />
-                    <a href="#">History</a>
-                    <a href="#">Quality Managem</a>
-                    <a href="#">Plants</a>
-                    <a href="#">Markets</a>
+                    <Link to="/history">History</Link>
+                    <Link to="/quality">Quality Managem</Link>
+                    <Link to="plants">Plants</Link>
+                    <Link to="markets">Markets</Link>
                 </div>
             </div>
 

@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-flow: row;
+    min-height: 53vh;
 }
 #about-selection{
     width: 30vh;
