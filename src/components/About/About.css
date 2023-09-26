@@ -1,7 +1,7 @@
 #About{
+    margin-top: 2em;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row;
     min-height: 53vh;
     width: 100%; /* esto soluciono lo torpe de la renderizacion */
@@ -11,17 +11,17 @@
     height: 42vh;
 }
 
-#cont-about-selection{
+#cont-selection{
     display: flex;
     flex-direction: column;
 }
-#cont-about-selection img{
+#cont-selection img{
     width: 10vh;
     margin-top: 3em;
     margin-left: 1em;
     margin-bottom: 2em;
 }
-#cont-about-selection a{
+#cont-selection a{
     margin-left: 2em;
     margin-top: .3em;
     text-decoration: none;

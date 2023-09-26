@@ -5,6 +5,7 @@ import { Home } from './components/Home/Home'
 import {headerData} from './assets/dataPage.json'
 import { Route } from "wouter"
 import { About } from './components/About'
+import { Contact } from './components/Contact'
 
 function App() {
 
@@ -33,6 +34,13 @@ function App() {
           path='/about/markets'
           component={About}
         />
+
+        <Route
+          path='/contact'
+          component={Contact}
+
+          />
+
 
 
 
