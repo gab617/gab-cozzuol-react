@@ -1,0 +1,10 @@
+#Customers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 53vh;
+    margin-top: 2em
+}
+#customers-imgs{
+    width: 65%;
+}

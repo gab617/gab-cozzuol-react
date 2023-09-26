@@ -6,6 +6,8 @@ import {headerData} from './assets/dataPage.json'
 import { Route } from "wouter"
 import { About } from './components/About'
 import { Contact } from './components/Contact'
+import { Products } from './components/Products'
+import { Customers } from './components/Custormers'
 
 function App() {
 
@@ -14,6 +16,7 @@ function App() {
       <div className='content-page'>
         <Header 
           headerData = {headerData}/>
+          
         <Route
           path="/"
           component={Home}
@@ -38,9 +41,19 @@ function App() {
         <Route
           path='/contact'
           component={Contact}
-
           />
 
+          {/* RUTAS PARA PRODUCTOS */}
+          <Route
+            path='/products/interiors'
+            component={Products}
+          />
+
+          {/* CUSTOMERS */}
+          <Route
+            path='/customers'
+            component={Customers}
+          />
 
 
 

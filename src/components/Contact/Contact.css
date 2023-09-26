@@ -3,6 +3,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    min-height: 53vh;
 }
 #contac-content p{
     margin-left: 1.3em;

@@ -7,6 +7,9 @@ import { Quality } from "./Categories/Quality"
 import { Plants } from "./Categories/Plants"
 import { Markets } from "./Categories/Markets"
 
+/* El useEffect, mantiene actualizada la rutaactual en nuestro proyecto
+comparando asi con "locActual y asi saber que componente renderizar." */
+
 export function About() {
     const locActual = useLocation()
     const [loc, setLoc] = useState(useLocation())
