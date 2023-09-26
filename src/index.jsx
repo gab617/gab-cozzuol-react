@@ -13,15 +13,28 @@ function App() {
       <div className='content-page'>
         <Header 
           headerData = {headerData}/>
-
         <Route
-          component={Home}
           path="/"
+          component={Home}
         />
         <Route
+          path= '/about/history'
           component= {About}
-          path= '/about'
         />
+        <Route
+          path= '/about/quality'
+          component= {About}
+          />
+        <Route
+          path='/about/plants'
+          component={About}
+        />
+        <Route
+          path='/about/markets'
+          component={About}
+        />
+
+
 
         <Footer />
       </div>

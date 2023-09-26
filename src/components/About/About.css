@@ -4,6 +4,7 @@
     align-items: center;
     flex-flow: row;
     min-height: 53vh;
+    width: 100%; /* esto soluciono lo torpe de la renderizacion */
 }
 #about-selection{
     width: 30vh;
@@ -40,4 +41,13 @@
 }
 #text-history p:last-child{
     margin-right:0;
+}
+/* MARKET INFO */
+#markets-info{
+    display: flex;
+    width: 100%;
+}
+
+.img-market{
+    margin-right: 5em;
 }
