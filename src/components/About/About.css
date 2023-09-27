@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     flex-flow: row;
-    min-height: 53vh;
     width: 100%; /* esto soluciono lo torpe de la renderizacion */
 }
 #about-selection{
@@ -38,6 +37,8 @@
 }
 #text-history p{
     margin-right: 2em;
+    margin-top: 2em;
+    width: 100%;
 }
 #text-history p:last-child{
     margin-right:0;

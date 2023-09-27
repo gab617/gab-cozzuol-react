@@ -3,7 +3,6 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    min-height: 53vh;
 }
 #contac-content p{
     margin-left: 1.3em;
@@ -17,11 +16,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     /* Fondo oscuro semitransparente */
     width: 65%;
+    height: 100%;
 }
 
 #form-contact form {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-flow: column;
     justify-content: space-around;

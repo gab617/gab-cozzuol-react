@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import { Anchor } from "../Header/Anchor";
-import {infoData} from '../../assets/dataPage.json'
-import {infoDataText} from '../../assets/dataPage.json'
-
+import { infoDataText } from '../../assets/dataPage.json'
+import './Home.css'
+import { FooterOptions } from "../footerOptions";
+import { Separator } from '../Separator';
 export function Home() {
     return (
         <>
@@ -10,12 +10,18 @@ export function Home() {
                 <div className='slide-main'>
                     <img src="https://www.acozzuol.com.ar/eng/img/home_img08.jpg" alt="" />
                 </div>
-                <footer id='footer-slide'>
-                    <img src="https://www.acozzuol.com.ar/eng/img/footer_separa_1.png" alt="" />
-                </footer>
+                <Separator/>
+            </div>
+            <FooterOptions />
+            <div id="text-home">
+                <p>{infoDataText[0].textInfo}</p>
+                <p>{infoDataText[1].textInfo}</p>
+                <p>{infoDataText[2].textInfo}</p>
             </div>
 
-            <div className='cont-info'>
+
+
+            {/*             <div className='cont-info'>
                 <div id='info'>
                     <div className='info-link'>
                         <Anchor imgUrl={infoData[0].imgUrl} />
@@ -30,7 +36,7 @@ export function Home() {
                         <p>{infoDataText[2].textInfo}</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

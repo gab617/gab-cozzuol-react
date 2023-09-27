@@ -6,6 +6,7 @@ import { History } from "./Categories/History"
 import { Quality } from "./Categories/Quality"
 import { Plants } from "./Categories/Plants"
 import { Markets } from "./Categories/Markets"
+import { Separator } from "../Separator"
 
 /* El useEffect, mantiene actualizada la rutaactual en nuestro proyecto
 comparando asi con "locActual y asi saber que componente renderizar." */
@@ -21,29 +22,28 @@ export function About() {
 
     return (
         <div id="About">
-            <SelectionAbout/>
+            <SelectionAbout />
             <div className="info-selection">
                 {
                     loc == "/about/history" && (
-                        <History/>
+                        <History />
                     )
                 }
                 {
                     loc == "/about/quality" && (
-                        <Quality/>
+                        <Quality />
                     )
                 }
                 {
                     loc == "/about/plants" && (
-                        <Plants/>                    )
+                        <Plants />)
                 }
                 {
                     loc == "/about/markets" && (
-                        <Markets/>
+                        <Markets />
                     )
                 }
-
             </div>
-        </div >
+        </div>
     )
 }
