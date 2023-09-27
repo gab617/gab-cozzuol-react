@@ -6,7 +6,6 @@ import { History } from "./Categories/History"
 import { Quality } from "./Categories/Quality"
 import { Plants } from "./Categories/Plants"
 import { Markets } from "./Categories/Markets"
-import { Separator } from "../Separator"
 
 /* El useEffect, mantiene actualizada la rutaactual en nuestro proyecto
 comparando asi con "locActual y asi saber que componente renderizar." */
