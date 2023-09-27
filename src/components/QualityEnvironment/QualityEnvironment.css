@@ -1,0 +1,33 @@
+#QualityEnvironment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 42vh;
+    align-items: center;
+}
+
+#QualityEnvironment{
+
+}
+
+#quality-info-cont{
+    display: flex;
+}
+
+.quality-info{
+    display: flex;
+    align-items: self-start;
+}
+
+.quality-info p{
+    width: 50%;
+    margin-left: 1em;
+}
+
+.quality-info img{
+    width: 30%;
+}
+
+#certifications{
+}

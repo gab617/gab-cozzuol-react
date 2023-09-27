@@ -11,6 +11,7 @@ import { Customers } from './components/Custormers'
 import { FooterOptions } from './components/FooterOpt'
 import { useEffect, useState } from 'react'
 import { Separator } from './components/Separator'
+import { QualityEnvironment } from './components/QualityEnvironment'
 
 function App() {
   const locActual = useLocation()
@@ -64,6 +65,11 @@ function App() {
         <Route
           path='/customers'
           component={Customers}
+        />
+
+        <Route
+          path='/quality-environment'
+          component={QualityEnvironment}
         />
         <Separator></Separator>
         {
