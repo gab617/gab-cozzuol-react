@@ -68,7 +68,7 @@ function App() {
         <Separator></Separator>
         {
           loc !== '/' && (
-            <FooterOptions></FooterOptions>
+            <FooterOptions/>
           )
         }
         <Footer />
