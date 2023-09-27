@@ -8,7 +8,7 @@ import { About } from './components/About'
 import { Contact } from './components/Contact'
 import { Products } from './components/Products'
 import { Customers } from './components/Custormers'
-import { FooterOptions } from './components/footerOptions'
+import { FooterOptions } from './components/FooterOpt'
 import { useEffect, useState } from 'react'
 import { Separator } from './components/Separator'
 

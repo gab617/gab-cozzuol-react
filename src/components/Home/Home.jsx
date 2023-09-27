@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { infoDataText } from '../../assets/dataPage.json'
 import './Home.css'
-import { FooterOptions } from "../footerOptions";
+import { FooterOptions } from "../FooterOpt";
 import { Separator } from '../Separator';
 export function Home() {
     return (
