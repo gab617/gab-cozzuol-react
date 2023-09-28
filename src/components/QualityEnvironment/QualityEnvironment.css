@@ -13,6 +13,8 @@
 
 #quality-info-cont{
     display: flex;
+    margin-top: 2em;
+    width: 85%;
 }
 
 .quality-info{
@@ -30,4 +32,30 @@
 }
 
 #certifications{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.certif-data{
+    display: flex;
+}
+
+#title-certification{
+    font-size: .9em;
+    color: rgb(46, 60, 76);
+    margin-bottom: 1em;
+}
+
+.certif-data img{
+    margin-right: 1em;
+    margin-top: .2em;
+    height: 50%;
+}
+
+.certif-data h3{
+    font-style: italic;
+    font-size: 18px;
+    color: #0F4B8F;
 }

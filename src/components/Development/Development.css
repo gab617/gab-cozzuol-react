@@ -1,0 +1,38 @@
+#Development{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#img-title{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+#dev1{
+    margin-left: 19em;
+}
+#dev2{
+    margin-right: 19em;
+}
+
+.develop-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.development-text{
+    display: flex;
+    justify-content: center;
+}   
+
+.development-text h2{
+    width: 50%;
+    text-align: center;
+    font-size: 1.3em;
+    margin: .3em;
+}

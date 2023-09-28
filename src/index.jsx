@@ -12,6 +12,8 @@ import { FooterOptions } from './components/FooterOpt'
 import { useEffect, useState } from 'react'
 import { Separator } from './components/Separator'
 import { QualityEnvironment } from './components/QualityEnvironment'
+import { Development } from './components/Development'
+import { ProductionCapacity } from './components/ProductionCapacity'
 
 function App() {
   const locActual = useLocation()
@@ -70,6 +72,16 @@ function App() {
         <Route
           path='/quality-environment'
           component={QualityEnvironment}
+        />
+
+        <Route
+          path='/development'
+          component={Development}
+        />
+
+        <Route
+        path='/production-capacity'
+        component={ProductionCapacity}
         />
         <Separator></Separator>
         {

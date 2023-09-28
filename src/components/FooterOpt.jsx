@@ -13,8 +13,8 @@ export function FooterOptions() {
         <>
             <div id='foo-options' style={style}>
                 <Anchor path={'/quality-environment'} imgUrl={infoData[0].imgUrl} />
-                <Anchor imgUrl={infoData[1].imgUrl} />
-                <Anchor imgUrl={infoData[2].imgUrl} />
+                <Anchor path={'/development'} imgUrl={infoData[1].imgUrl} />
+                <Anchor path={'/production-capacity'} imgUrl={infoData[2].imgUrl} />
             </div>
         </>
     )

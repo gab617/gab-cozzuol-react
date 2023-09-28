@@ -9,7 +9,7 @@ export function QualityEnvironment (){
             <div id='quality-info-cont'>
                 <div className='quality-info'>
                     <img src="https://www.acozzuol.com.ar/eng/img/calidad_medio_img01.png" alt="" />
-                    <p>The company's ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field.</p>
+                    <p>The company s ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field.</p>
                 </div>
                 <div className='quality-info'>
                     <img src="https://www.acozzuol.com.ar/eng/img/calidad_medio_img02.png" alt="" />
@@ -17,19 +17,19 @@ export function QualityEnvironment (){
                 </div>
             </div>
             <div id='certifications'>
-                <h2>THIRD PARTY CERTIFICATIONS</h2>
+                <h2 id='title-certification'>THIRD PARTY CERTIFICATIONS</h2>
                 <div>
-                    <div>
+                    <div className='certif-data'>
                         <img src="https://www.acozzuol.com.ar/eng/img/flecha_roja.png" alt="" />
-                        <h3>ISO </h3>
+                        <h3>ISO TS 16949</h3>
                     </div>
-                    <div>
+                    <div className='certif-data'>
                         <img src="https://www.acozzuol.com.ar/eng/img/flecha_roja.png" alt="" />
-                        <h3>ISO </h3>
+                        <h3>ISO 9001</h3>
                     </div>
-                    <div>
+                    <div className='certif-data'>
                         <img src="https://www.acozzuol.com.ar/eng/img/flecha_roja.png" alt="" />
-                        <h3>ISO </h3>
+                        <h3>ISO 14001</h3>
                     </div>
                 </div>
             </div>
