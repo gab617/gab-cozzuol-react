@@ -1,0 +1,13 @@
+.fade-in {
+    opacity: 0;
+    /* Empieza con opacidad 0 para ocultar el componente */
+    animation: fadeIn 0.9s ease-in forwards;
+    /* Animación de fundido */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        /* Llega a una opacidad de 1 para mostrar el componente */
+    }
+}

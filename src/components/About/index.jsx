@@ -22,7 +22,7 @@ export function About() {
     return (
         <div id="About">
             <SelectionAbout />
-            <div className="info-selection">
+            <div className="info-selection fade-in">
                 {
                     loc == "/about/history" && (
                         <History />

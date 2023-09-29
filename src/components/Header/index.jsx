@@ -46,7 +46,7 @@ export function Header({headerData}) {
                     </nav>
                 </div>
                 <div id="div-img-logo-cozz">
-                    <Anchor imgUrl={headerData[3].imgUrl} />
+                    <Anchor imgUrl={headerData[3].imgUrl} path={"/"}/>
                 </div>
             </header>
         </>

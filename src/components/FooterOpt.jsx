@@ -7,7 +7,9 @@ export function FooterOptions() {
         display: 'flex',
         justifyContent: 'space-between',
         width: '70%',
-        marginLeft: '2em'
+        marginLeft: '2em',
+        cursor: 'pointer'
+
     }
     return (
         <>

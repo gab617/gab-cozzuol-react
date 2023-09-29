@@ -33,7 +33,9 @@ export function Products() {
             </SelectionCont>
 
             <div id="slider-prducts">
-                <img src="https://www.acozzuol.com.ar/img/prod/interior3.jpg" alt="" />
+            <div >
+                <img  className="fade-in" src="https://www.acozzuol.com.ar/img/prod/interior3.jpg" alt="" />
+                </div>
             </div>
         </div>
     )

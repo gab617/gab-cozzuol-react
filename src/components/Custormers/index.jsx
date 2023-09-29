@@ -7,7 +7,7 @@ export function Customers (){
             <SelectionCont>
                 <img src="https://www.acozzuol.com.ar/eng/img/customers_tit_eng.png" alt="" />
             </SelectionCont>
-            <div id="customers-imgs">
+            <div id="customers-imgs" className="fade-in">
                 <img src="https://www.acozzuol.com.ar/eng/img/clientes_img1.png" alt="" />
                 <img src="https://www.acozzuol.com.ar/eng/img/clientes_img2.png" alt="" />
                 <img src="https://www.acozzuol.com.ar/eng/img/clientes_img3.png" alt="" />

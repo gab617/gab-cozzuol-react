@@ -10,10 +10,10 @@
     height: 42vh;
 }
 
-#cont-selection{
+/* #cont-selection{
     display: flex;
     flex-direction: column;
-}
+} */
 #cont-selection img{
     width: 10vh;
     margin-top: 3em;
@@ -25,6 +25,12 @@
     margin-top: .3em;
     text-decoration: none;
     color: white;
+}
+
+#cont-selection a:hover{
+    filter: brightness(3); /* Ajusta el valor según la intensidad de brillo deseada */
+    transition: filter 0.1s ease; /* Controla la velocidad y suavidad de la transición */
+    color: rgba(97, 106, 212, 0.854);
 }
 
 .info-selection{

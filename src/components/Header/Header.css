@@ -20,6 +20,18 @@ header {
     align-items: center;
 }
 
+#header img {
+    cursor: pointer;
+}
+
+#header img:hover {
+    scale: 1.1;
+    filter: brightness(2);
+    /* Ajusta el valor según la intensidad de brillo deseada */
+    transition: filter 0.5s ease;
+    /* Controla la velocidad y suavidad de la transición */
+}
+
 #a-home {
     margin-left: 2em;
 }
@@ -44,13 +56,17 @@ header {
     margin-right: 3em;
 }
 
-#div-img-logo-cozz{
+#div-img-logo-cozz {
     display: flex;
-    margin-left: 7em;
-    /* justify-content: center; */
-
+    width: 33%;
 }
-#div-img-logo-cozz .a{
+
+#div-img-logo-cozz img{
+    margin: 0 auto;
+}
+
+#div-img-logo-cozz .a {
     margin-top: .3em;
     margin-right: 40em;
 }
+

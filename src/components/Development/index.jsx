@@ -2,7 +2,7 @@ import './Development.css'
 
 export function Development() {
     return (
-        <div id='Development'>
+        <div id='Development' className='fade-in'>
             <img id='img-title' src="https://www.acozzuol.com.ar/eng/img/capacity_tit.png" alt="" />
             <div className='develop-cont' id='dev1'>
                 <img src="https://www.acozzuol.com.ar/eng/img/capacidad_desarrollo_img01.png" alt="" />

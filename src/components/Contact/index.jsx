@@ -29,7 +29,7 @@ export function Contact() {
                 <img src="https://www.acozzuol.com.ar/eng/img/contacto_tit.png" alt="" />
                 <p>info@acozzuol.com.ar</p>
             </SelectionCont>
-            <div id="form-contact">
+            <div id="form-contact" className="fade-in">
                 <form onSubmit={handleSubmit}>
                     <div className="form-seccion">
                         <label htmlFor="name">Name:</label>

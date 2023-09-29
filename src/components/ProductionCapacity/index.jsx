@@ -14,7 +14,7 @@ export function ProductionCapacity(){
         "Assembly"
       ])
     return (
-        <div id="ProductionCapacity">
+        <div id="ProductionCapacity" className="fade-in">
             <img src="https://www.acozzuol.com.ar/eng/img/production_tit.png" alt="" />
 
             <div id="prod-cap-cont">
