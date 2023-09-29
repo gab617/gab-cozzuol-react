@@ -1,10 +1,35 @@
 #ProductionCapacity{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    width: 55%;
+    margin-left: 1em;
+    height: 42vh;
+}
+
+#ProductionCapacity img{
+    width: 70%;
 }
 
 #prod-cap-cont{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2em;
+}
+.prod-list{
+}
+
+.prod-list h2{
+    color: #0F4B8F;
+    font-style: italic;
+    margin-bottom: 1em;
+    margin-left: -1em;
+}
+
+#ProductionCapacity .prod-list ul{
+    list-style-image: url('https://www.acozzuol.com.ar/eng/img/circulo_azul.png');
+    padding-left: 0;
+}
+#ProductionCapacity .prod-list li{
+    margin: .5em 0 .5em 0 ;
 }

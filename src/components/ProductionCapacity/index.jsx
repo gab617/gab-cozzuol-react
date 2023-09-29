@@ -18,7 +18,7 @@ export function ProductionCapacity(){
             <img src="https://www.acozzuol.com.ar/eng/img/production_tit.png" alt="" />
 
             <div id="prod-cap-cont">
-                <div>
+                <div className="prod-list">
                     <h2>Plants</h2>
                     <ul>
                     {
@@ -28,7 +28,7 @@ export function ProductionCapacity(){
                     }
                     </ul>
                 </div>
-                <div>
+                <div className="prod-list">
                     <h2>Process</h2>
                     <ul>
                         {

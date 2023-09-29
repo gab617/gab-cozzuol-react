@@ -41,8 +41,7 @@
 }
 
 .form-seccion {
-    background-color: lightcoral;
-    margin: 1em;
+    margin: .5em;
     border-radius: 5px;
     /* Bordes redondeados */
     background-color: #f5f5f580;
