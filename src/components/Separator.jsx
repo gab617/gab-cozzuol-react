@@ -1,6 +1,7 @@
 export function Separator() {
     const styles ={
-        marginTop : '2em'
+        marginTop : '2em',
+        marginBottom: '2em'
     }
     return (
         <>

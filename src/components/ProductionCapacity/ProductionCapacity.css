@@ -13,7 +13,6 @@
 #prod-cap-cont{
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 2em;
 }
 
@@ -30,4 +29,32 @@
 }
 #ProductionCapacity .prod-list li{
     margin: .5em 1em .5em 0 ;
+}
+
+@media (max-width: 768px){
+    #ProductionCapacity{
+        display: flex;
+        width: 90%;
+        height: initial;
+    }
+
+    #ProductionCapacity img{
+        width: 100%;
+        margin-top: 1em;
+    }
+    #prod-cap-cont{
+        flex-direction: column;
+    }
+    .prod-list{
+        width: 100%;
+        margin: 1em 0 1.5em 1em;
+    }
+    .prod-list h2{
+        font-size: 2.7em;
+    }
+
+    #ProductionCapacity .prod-list li{
+        font-size: 2.3em;
+    }
+
 }

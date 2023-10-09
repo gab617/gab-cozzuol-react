@@ -126,4 +126,8 @@ ul {
     /* Fija la imagen de fondo para que no se desplace con el contenido */
     /* Asegura que la imagen de fondo cubra toda la pantalla */
   }
+
+  #foo-options img{
+    margin-bottom: .5em;
+  }
 }
