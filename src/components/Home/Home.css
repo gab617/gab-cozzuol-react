@@ -8,4 +8,41 @@
     margin-right: 2em;
     margin-left: 1.5em;
 }
+#cont-slide {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
 
+#options-and-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+@media (max-width: 768px){
+    #cont-slide{
+        display: block;
+    }
+    .slide-main img{
+        width: 100%;
+    }
+    #options-and-text{
+        display: flex;
+        flex-direction: row;
+        height: 60vh;
+    }  
+    #text-home{
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+    }
+    #text-home p{
+        width: inherit;
+        scale: 1.5;
+        margin-top: 2em;
+    }
+
+
+}

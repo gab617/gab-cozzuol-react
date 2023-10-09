@@ -1,0 +1,28 @@
+#foo-options {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    #foo-options {
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    #foo-options {
+        width: 45%;
+    }
+
+    #foo-options img{
+        scale: 1.4;
+    }
+
+    #separator img {
+        width: 100%;
+    }
+}

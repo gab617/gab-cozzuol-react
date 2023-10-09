@@ -10,13 +10,15 @@ export function Home() {
                 <div className='slide-main'>
                     <img src="https://www.acozzuol.com.ar/eng/img/home_img08.jpg" alt="" />
                 </div>
-                <Separator/>
+                <Separator />
             </div>
-            <FooterOptions />
-            <div id="text-home">
-                <p>{infoDataText[0].textInfo}</p>
-                <p>{infoDataText[1].textInfo}</p>
-                <p>{infoDataText[2].textInfo}</p>
+            <div id='options-and-text'>
+                <FooterOptions />
+                <div id="text-home">
+                    <p>{infoDataText[0].textInfo}</p>
+                    <p>{infoDataText[1].textInfo}</p>
+                    <p>{infoDataText[2].textInfo}</p>
+                </div>
             </div>
 
 

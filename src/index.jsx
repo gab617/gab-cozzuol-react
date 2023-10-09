@@ -68,25 +68,26 @@ function App() {
           path='/customers'
           component={Customers}
         />
+        <div id='cont-election-footer'>
+          <Route
+            path='/quality-environment'
+            component={QualityEnvironment}
+          />
 
-        <Route
-          path='/quality-environment'
-          component={QualityEnvironment}
-        />
+          <Route
+            path='/development'
+            component={Development}
+          />
 
-        <Route
-          path='/development'
-          component={Development}
-        />
-
-        <Route
-        path='/production-capacity'
-        component={ProductionCapacity}
-        />
-        <Separator></Separator>
+          <Route
+            path='/production-capacity'
+            component={ProductionCapacity}
+          />
+          <Separator></Separator>
+        </div>
         {
           loc !== '/' && (
-            <FooterOptions/>
+            <FooterOptions />
           )
         }
         <Footer />

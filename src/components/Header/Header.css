@@ -43,7 +43,6 @@ header {
 #header nav {
     margin-top: 2.5em;
     margin-left: 15em;
-
 }
 
 #nav-options ul {
@@ -61,7 +60,7 @@ header {
     width: 33%;
 }
 
-#div-img-logo-cozz img{
+#div-img-logo-cozz img {
     margin: 0 auto;
 }
 
@@ -70,3 +69,59 @@ header {
     margin-right: 40em;
 }
 
+
+/* Estilos para la versión móvil (media query) */
+@media (max-width: 768px) {
+    header{
+        height: inherit;
+    }
+
+    /* Aquí puedes aplicar estilos específicos para pantallas más pequeñas */
+    #header {
+        background-color: #333; /* Cambia el color de fondo según tus preferencias */
+        color: #fff; /* Cambia el color del texto según tus preferencias */
+        height: 10em;
+        /* Reduce el espacio alrededor del contenido del encabezado en pantallas pequeñas */
+    }
+    #header nav {
+        margin-left: inherit;
+    }
+
+    #header-top{
+        display: flex;    
+        justify-content:space-around;
+        width: 100%;
+    }
+
+    #header-top img{
+        scale: 1.5;
+    }
+
+    #header nav img{
+        scale: 1.5;
+    }
+
+    #header img:hover {
+        scale: 1.6;
+        filter: brightness(2);
+        /* Ajusta el valor según la intensidad de brillo deseada */
+        transition: filter 0.5s ease;
+        /* Controla la velocidad y suavidad de la transición */
+    }
+
+    #idiomas img{
+        margin: .3em;
+    }
+
+    #nav-options ul {
+        flex-direction: row;
+        justify-content: center;
+        /* Cambia la dirección de flexión para el menú en pantallas pequeñas */
+        gap: 10px;
+        /* Espacio entre los elementos de navegación en pantallas pequeñas */
+    }
+
+    #div-img-logo-cozz{
+        display: none;
+    }
+}

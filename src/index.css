@@ -6,7 +6,8 @@
 ul {
   list-style: none;
 }
-#root{
+
+#root {
   background: no-repeat url("https://www.acozzuol.com.ar/img/fondo_main.jpg");
   background-size: cover;
   background-position: center;
@@ -15,10 +16,10 @@ ul {
   /* Asegura que la imagen de fondo cubra toda la pantalla */
   width: 100%;
   height: 100%;
-  
+
 }
 
-.content-page{
+.content-page {
   background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
   background-size: cover;
   background-position: center;
@@ -32,12 +33,7 @@ ul {
   /* Asegura que la imagen de fondo cubra toda la pantalla */
 }
 
-#cont-slide {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
+
 
 #footer-separator {
   margin-top: 2em;
@@ -86,14 +82,48 @@ ul {
 
 }
 
-#footer-img-div{
+#footer-img-div {
   width: 100%;
 }
-#footer-page img{
-  width: 100%; /* Hace que la imagen ocupe el 100% del ancho del div */
-  height: 100%; /* Hace que la imagen ocupe el 100% de la altura del div */
-  object-fit: cover; /* Escala la imagen para que cubra todo el espacio del div */
-  object-position: center; /* Centra la imagen en el div si hay recorte */
+
+#footer-page img {
+  width: 100%;
+  /* Hace que la imagen ocupe el 100% del ancho del div */
+  height: 100%;
+  /* Hace que la imagen ocupe el 100% de la altura del div */
+  object-fit: cover;
+  /* Escala la imagen para que cubra todo el espacio del div */
+  object-position: center;
+  /* Centra la imagen en el div si hay recorte */
 
 }
 
+#cont-election-footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+   body{
+    width: 101vh;    
+  }
+
+  main{
+    width: inherit;
+  }
+
+  .content-page {
+    background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    /* Fija la imagen de fondo para que no se desplace con el contenido */
+    /* Asegura que la imagen de fondo cubra toda la pantalla */
+  }
+}
