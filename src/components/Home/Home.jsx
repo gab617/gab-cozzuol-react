@@ -21,8 +21,6 @@ export function Home() {
                 </div>
             </div>
 
-
-
             {/*             <div className='cont-info'>
                 <div id='info'>
                     <div className='info-link'>

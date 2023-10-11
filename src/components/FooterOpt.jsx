@@ -10,7 +10,6 @@ export function FooterOptions() {
         width: '70%',
         marginLeft: '2em',
         cursor: 'pointer'
-
     } */
     return (
         <>
