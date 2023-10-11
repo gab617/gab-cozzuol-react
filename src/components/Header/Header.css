@@ -94,16 +94,15 @@ header {
     }
 
     #header-top img{
-        scale: 1.5;
     }
 
     #header nav img{
-        scale: 1.5;
+        /* scale: 1.5; */
     }
 
     #header img:hover {
-        scale: 1.6;
-        filter: brightness(2);
+        scale:1;
+        filter: brightness(3);
         /* Ajusta el valor según la intensidad de brillo deseada */
         transition: filter 0.5s ease;
         /* Controla la velocidad y suavidad de la transición */
@@ -116,12 +115,16 @@ header {
     #nav-options ul {
         flex-direction: row;
         justify-content: center;
-        /* Cambia la dirección de flexión para el menú en pantallas pequeñas */
-        gap: 10px;
-        /* Espacio entre los elementos de navegación en pantallas pequeñas */
     }
 
     #div-img-logo-cozz{
         display: none;
     }
+    #nav-options ul li{
+        margin-right: 0;
+    }
+    #nav-options ul li img{
+        width: 100%;
+    }
+
 }

@@ -106,7 +106,6 @@ ul {
 
 @media screen and (max-width: 768px) {
    body{
-    width: 101vh;    
   }
 
   main{
@@ -117,12 +116,13 @@ ul {
     background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
     background-size: cover;
     background-position: center;
+    width: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 100%;
+  /*   width: 100%; */
     /* Fija la imagen de fondo para que no se desplace con el contenido */
     /* Asegura que la imagen de fondo cubra toda la pantalla */
   }

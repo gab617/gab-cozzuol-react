@@ -58,3 +58,16 @@
 .img-market{
     margin-right: 5em;
 }
+
+@media screen and (max-width: 768px){
+    #About{
+        flex-direction: column;
+        margin-top: 2em;
+        justify-content: center;
+        flex-flow: row;
+        width: 100%;
+    }
+    .info-selection{
+        width: 100%;
+    }
+}
