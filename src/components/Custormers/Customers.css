@@ -8,7 +8,7 @@
     width: 65%;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     #customers-imgs img{
         width: 100%;
     }
