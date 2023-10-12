@@ -64,7 +64,6 @@
         flex-direction: column;
         margin-top: 2em;
         justify-content: center;
-        flex-flow: row;
         width: 100%;
     }
     .info-selection{

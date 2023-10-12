@@ -1,3 +1,5 @@
+import './stylesInd.css'
+
 // eslint-disable-next-line react/prop-types
 export function SelectionCont({ children }) {
     const style = {
@@ -17,7 +19,7 @@ export function SelectionCont({ children }) {
     }
     return (
         <>
-            <div style={styleContainer}>
+            <div style={styleContainer} id="container-menu-static">
                 <div id="cont-selection" style={style}>
                     <div style={styleFlex} className="fade-in">
                         {children}

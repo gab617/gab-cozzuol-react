@@ -42,10 +42,11 @@
     #text-home {
         flex-direction: column;
         height: 100%;
-        justify-content: space-between;
+        justify-content: initial;
     }
 
     #text-home p {
-
+        width: 80%;
+        margin-bottom: 4em;
     }
 }
