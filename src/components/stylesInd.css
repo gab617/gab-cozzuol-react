@@ -23,6 +23,11 @@
         border-radius: .5em;
         margin-bottom: 1em;
     }
+    
+    #foo-options img:hover{
+        filter: brightness(2);
+        transition: filter 0.5s ease;
+    }
 
     #separator img {
         width: 100%;
