@@ -127,7 +127,5 @@ ul {
     /* Asegura que la imagen de fondo cubra toda la pantalla */
   }
 
-  #foo-options img{
-    margin-bottom: .5em;
-  }
+
 }
