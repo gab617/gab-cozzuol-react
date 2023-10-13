@@ -17,6 +17,10 @@ export function SelectionCont({ children }) {
         width: '30vh', // Asegura que el div ocupe todo el ancho disponible
         height: '42vh'
     }
+
+    if (window.matchMedia('(max-width: 768px)').matches) {
+        style.background = 'none'
+    }
     return (
         <>
             <div style={styleContainer} id="container-menu-static">

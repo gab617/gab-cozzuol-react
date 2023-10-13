@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     width: 70%;
-    height: 42vh;
+    /* height: 42vh; */
+    height: auto;
     align-items: center;
 }
 
-#QualityEnvironment {}
 
 #quality-info-cont {
     display: flex;

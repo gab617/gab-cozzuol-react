@@ -8,6 +8,10 @@
 
 
 @media (max-width: 768px) {
+    #cont-selection{
+        background: #333;
+    }
+
     #foo-options {
         flex-direction: column;
         width: 100%;
