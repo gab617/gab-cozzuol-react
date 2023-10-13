@@ -3,7 +3,7 @@ import './QualityEnvironment.css'
 export function QualityEnvironment (){
     return(
         <div id="QualityEnvironment" className='fade-in'>
-            <div>
+            <div id='quality-title'>
                 <img src="https://www.acozzuol.com.ar/eng/img/environment_tit.png" alt="" />
             </div>
             <div id='quality-info-cont'>

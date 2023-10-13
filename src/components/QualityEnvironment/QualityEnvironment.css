@@ -63,7 +63,17 @@
     #QualityEnvironment {
         height: inherit;
         margin-top: 2em;
+        width: 100%;
     }
+    #quality-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #quality-title img{
+        width: 90%;
+    }
+
     #quality-info-cont{
         flex-direction: column;
         width: 100%;
@@ -77,9 +87,10 @@
         width: 60%;
     }
     .quality-info p{
-        width: 100%;
-        font-size: 3em;
+        width: 90%;
+        font-size: 2.5em;
         margin-bottom: 1.3em;
+        margin-top: 1em;
     }
 
     #certifications h2,
