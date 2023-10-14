@@ -1,14 +1,15 @@
-#Products{
+#Products {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 2em;
 }
-#Products #img-product-tit{
+
+#Products #img-product-tit {
     margin-bottom: 0;
 }
 
-#selection-products{
+#selection-products {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,36 +19,39 @@
 }
 
 
-#sel-prod-1{
+#sel-prod-1 {
     width: 9vh;
     height: 15vh;
     margin-bottom: .5em;
 }
-#sel-prod-2{
+
+#sel-prod-2 {
     width: 5vh;
     height: 5vh;
     display: flex;
     flex-direction: column;
 }
 
-#slider-prducts{
+#slider-prducts {
     width: 65%;
 }
 
-#Products .selec-title{
+#Products .selec-title {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: .8em;
 }
 
-#Products .selec-title img{
+#Products .selec-title img {
     margin-left: 0;
 }
-#Products .selec-title h2{
+
+#Products .selec-title h2 {
     font-size: 1.1em;
 }
-#Products  .selec-links{
+
+#Products .selec-links {
     margin-top: -1em;
     display: flex;
     flex-direction: column;
@@ -55,13 +59,57 @@
     width: 15vh;
 }
 
-#Products .selec-links a{
+#Products .selec-links a {
     font-size: .9em;
     margin-left: 0;
 }
 
-@media screen and (max-width: 768px){
-    #slider-prducts img{
+@media screen and (max-width: 768px) {
+    #Products{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1em;
+        justify-content: center;
+        align-items: center;
+    }
+    #slider-prducts img {
         width: 100%;
     }
+
+    #selection-products {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+    }
+    #Products .selec-links {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+
+    }
+    #Products .selec-links a{
+    }
+    #sel-prod-1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: inherit;
+        align-items: center;
+
+    }
+    #sel-prod-2 {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: inherit;
+        align-items: center;
+    }
+    #Products .selec-links a{
+        }
 }
