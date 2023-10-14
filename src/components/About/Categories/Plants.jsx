@@ -11,11 +11,9 @@ export function Plants() {
         url : "https://www.acozzuol.com.ar/eng/img/quienes_somos_planta02.png"
     }
     if (window.matchMedia('(max-width: 768px)').matches){
-        styles.display = 'none'
-        urlImg2.url = "/src/components/About/Categories/imgs/quienes_somos_planta2.png"
-        styles2.marginTop = '5em'
-        styles2.marginBottom = '5em'
-        
+        /* styles.display = 'none' */
+        styles2.marginTop = '0'
+        styles2.marginBottom = '0'
     }
     return (
         <>
