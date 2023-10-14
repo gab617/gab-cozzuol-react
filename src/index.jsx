@@ -27,71 +27,75 @@ function App() {
   return (
     <main>
       <div className='content-page'>
+
         <Header
           headerData={headerData} />
 
-        <Route
-          path="/"
-          component={Home}
-        />
+        <div className='content'>
 
-        <Route
-          path='/about/history'
-          component={About}
-        />
-        <Route
-          path='/about/quality'
-          component={About}
-        />
-        <Route
-          path='/about/plants'
-          component={About}
-        />
-        <Route
-          path='/about/markets'
-          component={About}
-        />
-
-        <Route
-          path='/contact'
-          component={Contact}
-        />
-
-        {/* RUTAS PARA PRODUCTOS */}
-        <Route
-          path='/products/interiors'
-          component={Products}
-        />
-
-        {/* CUSTOMERS */}
-        <Route
-          path='/customers'
-          component={Customers}
-        />
-        <div id='cont-election-footer'>
           <Route
-            path='/quality-environment'
-            component={QualityEnvironment}
+            path="/"
+            component={Home}
           />
 
           <Route
-            path='/development'
-            component={Development}
+            path='/about/history'
+            component={About}
+          />
+          <Route
+            path='/about/quality'
+            component={About}
+          />
+          <Route
+            path='/about/plants'
+            component={About}
+          />
+          <Route
+            path='/about/markets'
+            component={About}
           />
 
           <Route
-            path='/production-capacity'
-            component={ProductionCapacity}
+            path='/contact'
+            component={Contact}
           />
-          <Separator></Separator>
+
+          {/* RUTAS PARA PRODUCTOS */}
+          <Route
+            path='/products/interiors'
+            component={Products}
+          />
+
+          {/* CUSTOMERS */}
+          <Route
+            path='/customers'
+            component={Customers}
+          />
+          <div id='cont-election-footer'>
+            <Route
+              path='/quality-environment'
+              component={QualityEnvironment}
+            />
+
+            <Route
+              path='/development'
+              component={Development}
+            />
+
+            <Route
+              path='/production-capacity'
+              component={ProductionCapacity}
+            />
+            <Separator></Separator>
+          </div>
+          {
+            loc !== '/' && (
+              <FooterOptions />
+            )
+          }
+          <Footer />
+
         </div>
-        {
-          loc !== '/' && (
-            <FooterOptions />
-          )
-        }
-        <Footer />
-
       </div>
     </main>
   )

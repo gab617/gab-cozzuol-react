@@ -11,3 +11,10 @@
         /* Llega a una opacidad de 1 para mostrar el componente */
     }
 }
+
+@media (max-width: 768px){
+    .content{
+        margin-top: 8em;
+    }
+}
+
