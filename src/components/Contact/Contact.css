@@ -4,10 +4,12 @@
     width: 100%;
     justify-content: center;
 }
-#contac-content p{
+
+#contac-content p {
     margin-left: 1.3em;
 }
-#contac-content img{
+
+#contac-content img {
     scale: .8;
     margin-left: .5em;
 }
@@ -65,15 +67,56 @@
     /* Sombra al enfocar */
 }
 
-#form-button{
-  background-color: #007bff; /* Fondo azul */
-  color: white; /* Texto en color blanco */
-  padding: 10px 20px; /* Espaciado interior */
-  width: 50%;
-  border: none; /* Sin borde */
-  margin: 0 auto;
-  border-radius: 5px; /* Bordes redondeados */
-  cursor: pointer; /* Cambiar el cursor al pasar el ratón */
-  font-size: 16px; /* Tamaño del texto */
-  transition: background-color 0.3s; /* Transición suave del color de fondo */
+#form-button {
+    background-color: #007bff;
+    /* Fondo azul */
+    color: white;
+    /* Texto en color blanco */
+    padding: 10px 20px;
+    /* Espaciado interior */
+    width: 50%;
+    border: none;
+    /* Sin borde */
+    margin: 0 auto;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar el ratón */
+    font-size: 16px;
+    /* Tamaño del texto */
+    transition: background-color 0.3s;
+    /* Transición suave del color de fondo */
+}
+
+@media (max-width:768px) {
+    #contac-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #form-contact {
+        width: 90%;
+        padding: 1em;
+    }
+
+    #form-button {
+        background-color: #007bffce;
+        /* Fondo azul */
+        box-shadow: .2em .2em .3em .1em rgba(0, 0, 0, 0.548); /* Sombras para resaltar el botón */
+        transition: box-shadow 0.3s ease;
+
+    }
+
+    #contac-content p{
+        font-size: 1.1em;
+        padding: .6em;
+        box-shadow: .2em .2em .3em .1em rgba(0, 0, 0, 0.548); /* Sombras para resaltar el botón */
+        border-radius: .5em;
+    }
+    #form-contact label{
+        padding: .5em;
+        font-size: 1.1em;
+    }
 }

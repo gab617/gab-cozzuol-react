@@ -9,6 +9,14 @@
 }
 
 @media screen and (max-width: 768px){
+    #Customers{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #customers-imgs{
+        width: 100%;
+    }
     #customers-imgs img{
         width: 100%;
     }
