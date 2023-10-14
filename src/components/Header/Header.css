@@ -2,7 +2,6 @@ header {
     background: no-repeat url("https://www.acozzuol.com.ar/eng/img/header_fondo.png");
     background-position: center top;
     width: 100%;
-    height: 20vh;
 }
 
 #header {
@@ -10,6 +9,7 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 11vh;
 }
 
 #header-top {
@@ -81,17 +81,19 @@ header {
         width: 100%;
         background-color: #333; /* Color de fondo de la barra de navegación */
         z-index: 1000; /* Asegura que la barra de navegación esté en la parte superior */
-        
+        background-image: none;
     }
 
     /* Aquí puedes aplicar estilos específicos para pantallas más pequeñas */
     #header {
         background-color: #333; /* Cambia el color de fondo según tus preferencias */
         color: #fff; /* Cambia el color del texto según tus preferencias */
+        height: inherit;
         /* Reduce el espacio alrededor del contenido del encabezado en pantallas pequeñas */
     }
     #header nav {
         margin-left: inherit;
+        margin-top: .6em;
     }
 
     #header-top{
@@ -105,6 +107,7 @@ header {
     #header-top img:hover{
         scale:1.3;
     }
+
 
     #nav-options img:hover {
         scale:1.1;
@@ -124,8 +127,17 @@ header {
     }
 
     #div-img-logo-cozz{
-        display: none;
+        margin-top: .4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
+    #div-img-logo-cozz img{
+        width: 45%;
+    }
+
+
     #nav-options ul li{
         margin-right: 0;
     }
