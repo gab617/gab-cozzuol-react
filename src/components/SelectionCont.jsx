@@ -7,11 +7,13 @@ export function SelectionCont({ children }) {
         height: '100%', // Puedes ajustar la altura según tus necesidades
         backgroundImage: `url(https://www.acozzuol.com.ar/eng/img/nav.png)`,
         backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
-
+        marginBottom: '',
     }
     const styleFlex = {
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        justifyContent: 'space-around',
+        
     }
     const styleContainer = {
         width: '30vh', // Asegura que el div ocupe todo el ancho disponible
@@ -20,12 +22,16 @@ export function SelectionCont({ children }) {
 
     if (window.matchMedia('(max-width: 768px)').matches) {
         style.background = 'none'
+        style.marginBottom = '1em'
+        styleFlex.flexDirection = 'row'
+        styleContainer.width = '99%'
+        styleContainer.height = '100%'
     }
     return (
         <>
             <div style={styleContainer} id="container-menu-static">
                 <div id="cont-selection" style={style}>
-                    <div style={styleFlex} className="fade-in">
+                    <div style={styleFlex}>
                         {children}
                     </div>
                 </div>
