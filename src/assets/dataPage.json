@@ -10,57 +10,57 @@
             "label": "",
             "path": "/index",
             "component": "EspañolIcono",
-            "imgUrl": "/src/assets/images/header/header_esp.png"
+            "imgUrl": "/images/header/header_esp.png"
         },
         {
             "label": "",
             "path": "/eng/index",
             "component": "InglesIcono",
-            "imgUrl": "/src/assets/images/header/header_eng.png"
+            "imgUrl": "/images/header/header_eng.png"
         },
         {
             "label": "",
             "path": "/eng/index",
             "component": "AlbanoCouzzuoImage",
-            "imgUrl": "/src/assets/images/header/logo.png"
+            "imgUrl": "/images/header/logo.png"
         },
         {
             "label": "About us",
             "path": "/about/history",
             "component": "About",
-            "imgUrl": "/src/assets/images/header/header_eng_about.png"
+            "imgUrl": "/images/header/header_eng_about.png"
         },
         {
             "label": "Products",
             "path": "/products/interiors",
             "component": "Products",
-            "imgUrl": "/src/assets/images/header/header_eng_prod.png"
+            "imgUrl": "/images/header/header_eng_prod.png"
         },
         {
             "label": "Custormes",
             "path": "/customers",
             "component": "Customers",
-            "imgUrl": "/src/assets/images/header/header_eng_custom.png"
+            "imgUrl": "/images/header/header_eng_custom.png"
         },
         {
             "label": "Contact",
             "path": "/contact",
             "component": "Contact",
-            "imgUrl": "/src/assets/images/header/header_eng_contact.png"
+            "imgUrl": "/images/header/header_eng_contact.png"
         }
     ],
     "infoFooter": [
         {
             "path": "/",
-            "imgUrl": "/src/assets/images/footer/footer_tit_1_eng.png"
+            "imgUrl": "/images/footer/footer_tit_1_eng.png"
         },
         {
             "path": "/",
-            "imgUrl": "/src/assets/images/footer/footer_tit_2_eng.png"
+            "imgUrl": "/images/footer/footer_tit_2_eng.png"
         },
         {
             "path": "/",
-            "imgUrl": "/src/assets/images/footer/footer_tit_3_eng.png"
+            "imgUrl": "/images/footer/footer_tit_3_eng.png"
         }
     ],
     "infoFooterText":[
@@ -82,8 +82,8 @@
             "markets": "/about/markets"
         },
         "images": {
-            "aboutImage": "/src/assets/images/about-us/about_tit_eng.png",
-            "titleSince": "/src/assets/images/about-us/quines_somos_historia_tit.png"
+            "aboutImage": "/images/about-us/about_tit_eng.png",
+            "titleSince": "/images/about-us/quines_somos_historia_tit.png"
         }
     }
 }
