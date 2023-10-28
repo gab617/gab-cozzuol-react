@@ -90,7 +90,8 @@ function App() {
           </div>
           {
             loc !== '/' && (
-              <FooterOptions />
+              <FooterOptions
+              /> 
             )
           }
           <Footer />

@@ -1,5 +1,5 @@
 import { Anchor } from "./Header/Anchor";
-import { infoData } from '../assets/dataPage.json'
+import { infoFooter } from '../assets/dataPage.json'
 import "./stylesInd.css"
 
 // eslint-disable-next-line react/prop-types
@@ -14,9 +14,9 @@ export function FooterOptions() {
     return (
         <>
             <div id='foo-options'>
-                <Anchor path={'/quality-environment'} imgUrl={infoData[0].imgUrl} />
-                <Anchor path={'/development'} imgUrl={infoData[1].imgUrl} />
-                <Anchor path={'/production-capacity'} imgUrl={infoData[2].imgUrl} />
+                <Anchor path={'/quality-environment'} imgUrl={infoFooter[0].imgUrl} />
+                <Anchor path={'/development'} imgUrl={infoFooter[1].imgUrl} />
+                <Anchor path={'/production-capacity'} imgUrl={infoFooter[2].imgUrl} />
             </div>
         </>
     )

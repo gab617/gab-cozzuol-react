@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { infoDataText } from '../../assets/dataPage.json'
+import { infoFooterText } from '../../assets/dataPage.json'
 import './Home.css'
 import { FooterOptions } from "../FooterOpt";
 import { Separator } from '../Separator';
@@ -15,9 +15,9 @@ export function Home() {
             <div id='options-and-text'>
                 <FooterOptions />
                 <div id="text-home">
-                    <p>{infoDataText[0].textInfo}</p>
-                    <p>{infoDataText[1].textInfo}</p>
-                    <p>{infoDataText[2].textInfo}</p>
+                    <p>{infoFooterText[0].textInfo}</p>
+                    <p>{infoFooterText[1].textInfo}</p>
+                    <p>{infoFooterText[2].textInfo}</p>
                 </div>
             </div>
 

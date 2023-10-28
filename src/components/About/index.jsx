@@ -1,4 +1,5 @@
 import { useLocation } from "wouter"
+import { aboutUsData } from "/src/assets/dataPage.json"
 import "./About.css"
 import { SelectionAbout } from "./SelectionAbout"
 import { useEffect, useState } from "react"
@@ -21,24 +22,27 @@ export function About() {
 
     return (
         <div id="About">
-            <SelectionAbout />
+            <SelectionAbout 
+                aboutUsData={aboutUsData} 
+            />
+            
             <div className="info-selection fade-in">
                 {
-                    loc == "/about/history" && (
+                    loc == `${aboutUsData.paths.history}` && (
                         <History />
                     )
                 }
                 {
-                    loc == "/about/quality" && (
+                    loc == `${aboutUsData.paths.quality}` && (
                         <Quality />
                     )
                 }
                 {
-                    loc == "/about/plants" && (
+                    loc == `${aboutUsData.paths.plants}` && (
                         <Plants />)
                 }
                 {
-                    loc == "/about/markets" && (
+                    loc == `${aboutUsData.paths.markets}` && (
                         <Markets />
                     )
                 }

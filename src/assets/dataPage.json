@@ -4,66 +4,66 @@
             "label": "Home",
             "path": "/",
             "component": "Home",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_home.png"
+            "imgUrl": "/src/assets/images/header/header_home.png"
         },
         {
             "label": "",
             "path": "/index",
             "component": "EspañolIcono",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_esp.png"
+            "imgUrl": "/src/assets/images/header/header_esp.png"
         },
         {
             "label": "",
             "path": "/eng/index",
             "component": "InglesIcono",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng.png"
+            "imgUrl": "/src/assets/images/header/header_eng.png"
         },
         {
             "label": "",
             "path": "/eng/index",
             "component": "AlbanoCouzzuoImage",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/logo.png"
+            "imgUrl": "/src/assets/images/header/logo.png"
         },
         {
             "label": "About us",
             "path": "/about/history",
             "component": "About",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_about.png"
+            "imgUrl": "/src/assets/images/header/header_eng_about.png"
         },
         {
             "label": "Products",
             "path": "/products/interiors",
             "component": "Products",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_prod.png"
+            "imgUrl": "/src/assets/images/header/header_eng_prod.png"
         },
         {
             "label": "Custormes",
             "path": "/customers",
             "component": "Customers",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_custom.png"
+            "imgUrl": "/src/assets/images/header/header_eng_custom.png"
         },
         {
             "label": "Contact",
             "path": "/contact",
             "component": "Contact",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/header_eng_contact.png"
+            "imgUrl": "/src/assets/images/header/header_eng_contact.png"
         }
     ],
-    "infoData": [
+    "infoFooter": [
         {
-            "path": "",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/footer_tit_1_eng.png"
+            "path": "/",
+            "imgUrl": "/src/assets/images/footer/footer_tit_1_eng.png"
         },
         {
-            "path": "",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/footer_tit_2_eng.png"
+            "path": "/",
+            "imgUrl": "/src/assets/images/footer/footer_tit_2_eng.png"
         },
         {
-            "path": "",
-            "imgUrl": "https://www.acozzuol.com.ar/eng/img/footer_tit_3_eng.png"
+            "path": "/",
+            "imgUrl": "/src/assets/images/footer/footer_tit_3_eng.png"
         }
     ],
-    "infoDataText":[
+    "infoFooterText":[
         {
             "textInfo":"The company's ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field."
         },
@@ -73,5 +73,17 @@
         {
             "textInfo":"Our production units are strategically located to supply an effective and efficient service to our customers."
         }
-    ]
+    ],
+    "aboutUsData":{
+        "paths": {
+            "history": "/about/history",
+            "quality": "/about/quality",
+            "plants": "/about/plants",
+            "markets": "/about/markets"
+        },
+        "images": {
+            "aboutImage": "/src/assets/images/about-us/about_tit_eng.png",
+            "titleSince": "/src/assets/images/about-us/quines_somos_historia_tit.png"
+        }
+    }
 }
