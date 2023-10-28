@@ -4,7 +4,7 @@
             "label": "Home",
             "path": "/",
             "component": "Home",
-            "imgUrl": "/src/assets/images/header/header_home.png"
+            "imgUrl": "/images/header/header_home.png"
         },
         {
             "label": "",
