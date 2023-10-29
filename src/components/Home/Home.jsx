@@ -8,7 +8,7 @@ export function Home() {
         <>
             <div id='cont-slide'>
                 <div className='slide-main'>
-                    <img src="https://www.acozzuol.com.ar/eng/img/home_img08.jpg" alt="" />
+                    <img src="/images/home/home_img08.jpg" alt="" />
                 </div>
                 <Separator />
             </div>
