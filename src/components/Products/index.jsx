@@ -1,32 +1,35 @@
 import { Link } from "wouter";
 import { SelectionCont } from "../SelectionCont";
+import {products} from "/src/assets/dataPage.json"
 import './Products.css'
 
-export function Products() {
+// eslint-disable-next-line react/prop-types
+export function Products() {  
+    const {navegationDescriptions, navegationTitles, images} = products
     return (
         <div id="Products">
             <SelectionCont>
-                <img id='img-product-tit' src="https://www.acozzuol.com.ar/eng/img/prod_tit_eng.png" alt="" />
+                <img id='img-product-tit' src={images.productsImage} alt="" />
                 <div id='selection-products'>
                     <div id="sel-prod-1">
                         <div className="selec-title">
-                            <img src="https://www.acozzuol.com.ar/eng/img/prod_flecha_azul.png" alt="" />
-                            <h2>Automotive Ind.</h2>
+                            <img src={images.flechaAzul} alt="" />
+                            <h2>{navegationTitles[0]}</h2>
                         </div>
                         <div className="selec-links">
-                            <Link to="">Interiors</Link>
-                            <Link to="">Exteriors</Link>
-                            <Link to="">Under Hood / Power Train</Link>
+                            <Link to="">{navegationDescriptions[0]}</Link>
+                            <Link to="">{navegationDescriptions[1]}</Link>
+                            <Link to="">{navegationDescriptions[2]}</Link>
                         </div>
                     </div>
                     <div id="sel-prod-2">
                         <div className="selec-title">
-                            <img src="https://www.acozzuol.com.ar/eng/img/prod_flecha_azul.png" alt="" />
-                            <h2>Other Markets</h2>
+                            <img src={images.flechaAzul} alt="" />
+                            <h2>{navegationTitles[1]}</h2>
                         </div>
                         <div className="selec-links">
-                            <Link to="">Home appliances</Link>
-                            <Link to="">Food</Link>
+                            <Link to="">{navegationDescriptions[3]}</Link>
+                            <Link to="">{navegationDescriptions[4]}</Link>
                         </div>
                     </div>
                 </div>
@@ -34,7 +37,7 @@ export function Products() {
 
             <div id="slider-prducts">
             <div >
-                <img  className="fade-in" src="https://www.acozzuol.com.ar/img/prod/interior3.jpg" alt="" />
+                <img  className="fade-in" src={images.piece3} alt="" />
                 </div>
             </div>
         </div>

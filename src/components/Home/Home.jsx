@@ -20,23 +20,6 @@ export function Home() {
                     <p>{infoFooterText[2].textInfo}</p>
                 </div>
             </div>
-
-            {/*             <div className='cont-info'>
-                <div id='info'>
-                    <div className='info-link'>
-                        <Anchor imgUrl={infoData[0].imgUrl} />
-                        <p>{infoDataText[0].textInfo}</p>
-                    </div>
-                    <div className='info-link' >
-                        <Anchor imgUrl={infoData[1].imgUrl} />
-                        <p>{infoDataText[1].textInfo}</p>
-                    </div>
-                    <div className='info-link' >
-                        <Anchor imgUrl={infoData[2].imgUrl} />
-                        <p>{infoDataText[2].textInfo}</p>
-                    </div>
-                </div>
-            </div> */}
         </>
     )
 }

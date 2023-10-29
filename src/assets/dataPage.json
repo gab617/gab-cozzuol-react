@@ -63,18 +63,24 @@
             "imgUrl": "/images/footer/footer_tit_3_eng.png"
         }
     ],
-    "infoFooterText":[
+    "infoFooterText": [
         {
-            "textInfo":"The company's ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field."
+            "textInfo": "The company's ongoing commitment to quality and environment is instrumented by an Integrated Quality Assurance and Environmental Management. This system has permitted us to achieve the highest standards in the field."
         },
         {
-            "textInfo":"Since 1953, we have acquired deep knowledge and experience that allow us to offer an excellent service for the Full Development of Projects."
+            "textInfo": "Since 1953, we have acquired deep knowledge and experience that allow us to offer an excellent service for the Full Development of Projects."
         },
         {
-            "textInfo":"Our production units are strategically located to supply an effective and efficient service to our customers."
+            "textInfo": "Our production units are strategically located to supply an effective and efficient service to our customers."
         }
     ],
-    "aboutUsData":{
+    "aboutUsData": {
+        "navegationDescriptions": [
+            "History",
+            "Quality Managem",
+            "Plants",
+            "Markets"
+        ],
         "paths": {
             "history": "/about/history",
             "quality": "/about/quality",
@@ -93,15 +99,52 @@
                 "/images/about-us/quienes_somos_mercados03.png"
             ]
         },
-        "texts":{
+        "texts": {
             "historyTexts": [
                 "Founded by Mr. Albano Cozzuol, the company began its operations in 1953 as a small producer of moulds and dies for different customers. Based on a constant process of investment and downstream value integration, Albano Cozzuol S.A. is currently Argentina s leading producer of plastic parts and components and one of the main manufacturers of Mercosur. Our plants are strategically located to supply an effective and efficient service to our customers, with production units in La Plata and General Pacheco (Province of Buenos Aires) and in Río Grande (Province of Tierra del Fuego).",
-                "Throughout our history, we have acquired deep knowledge and experience about the characteristics of local and regional markets, which together with the quality and training of our human resources, allow us to offer our current and prospective customers an excellent service for the Full Development of Projects."    
+                "Throughout our history, we have acquired deep knowledge and experience about the characteristics of local and regional markets, which together with the quality and training of our human resources, allow us to offer our current and prospective customers an excellent service for the Full Development of Projects."
             ],
             "qualityText": "Albano Cozzuol S.A. es el mayor productor de componentes y conjuntos plásticos de Argentina y uno de los principales de la región (Mercosur), con capacidad propia para el desarrollo integral de proyectos. Todos nuestros procesos se enmarcan y desenvuelven bajo el concepto de Calidad Integral de Gestión, lo que nos ha permitido ocupar un lugar relevante como proveedor de los principales constructores mundiales de automóviles como así también de otras industrias (Electrodomésticos, Alimentación).",
-            "marketsTexts": ["Automotive Ind.","Home Appliances","Food"]
+            "marketsTexts": [
+                "Automotive Ind.",
+                "Home Appliances",
+                "Food"
+            ]
         }
-
-
+    },
+    "products": {
+        "navegationDescriptions": [
+            "Interiors",
+            "Exteriors",
+            "Under Hood / Power Train",
+            "Home Appliances",
+            "Food"
+        ],
+        "navegationTitles": [
+            "Automotive Ind.",
+            "Other Markets"
+        ],
+        "paths": {},
+        "images": {
+            "productsImage": "/images/products/prod_tit_eng.png",
+            "flechaAzul": "/images/products/prod_flecha_azul.png",
+            "piece3": "/images/products/interior3.jpg"
+        }
+    },
+    "customers": {
+        "images": {
+            "customersImage": "/images/custormers/customers_tit_eng.png",
+            "terminales": [
+                "/images/custormers/clientes_img1.png",
+                "/images/custormers/clientes_img2.png",
+                "/images/custormers/clientes_img3.png",
+                "/images/custormers/clientes_img4.png"
+            ]
+        }
+    },
+    "contact": {
+        "images": {
+            "contactImage": "/images/contact/contacto_tit.png"
+        }
     }
 }

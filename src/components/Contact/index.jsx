@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { SelectionCont } from "../SelectionCont";
+import {contact} from "/src/assets/dataPage.json"
 import './Contact.css'
 
 export function Contact() {
@@ -26,7 +27,7 @@ export function Contact() {
     return (
         <div id="contac-content">
             <SelectionCont>
-                <img src="https://www.acozzuol.com.ar/eng/img/contacto_tit.png" alt="" />
+                <img src={contact.images.contactImage} alt="" />
                 <p>info@acozzuol.com.ar</p>
             </SelectionCont>
             <div id="form-contact" className="fade-in">

@@ -1,17 +1,19 @@
 import { SelectionCont } from "../SelectionCont";
+import { customers }  from "/src/assets/dataPage.json"
 import './Customers.css'
 
 export function Customers (){
+    const {customersImage, terminales} = customers.images
     return(
         <div id="Customers">
             <SelectionCont>
-                <img src="https://www.acozzuol.com.ar/eng/img/customers_tit_eng.png" alt="" />
+                <img src={customersImage} alt="" />
             </SelectionCont>
             <div id="customers-imgs" className="fade-in">
-                <img src="https://www.acozzuol.com.ar/eng/img/clientes_img1.png" alt="" />
-                <img src="https://www.acozzuol.com.ar/eng/img/clientes_img2.png" alt="" />
-                <img src="https://www.acozzuol.com.ar/eng/img/clientes_img3.png" alt="" />
-                <img src="https://www.acozzuol.com.ar/eng/img/clientes_img4.png" alt="" />
+                <img src={terminales[0]} alt="" />
+                <img src={terminales[1]} alt="" />
+                <img src={terminales[2]} alt="" />
+                <img src={terminales[3]} alt="" />
             </div>
         </div>
     )
