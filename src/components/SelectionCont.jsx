@@ -5,7 +5,7 @@ export function SelectionCont({ children }) {
     const style = {
         width: '100%', // Asegura que el div ocupe todo el ancho disponible
         height: '100%', // Puedes ajustar la altura según tus necesidades
-        backgroundImage: `url(https://www.acozzuol.com.ar/eng/img/nav.png)`,
+        backgroundImage: `url("/images/nav.png")`,
         backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
         marginBottom: '',
     }

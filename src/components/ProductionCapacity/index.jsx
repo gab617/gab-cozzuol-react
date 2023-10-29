@@ -15,7 +15,7 @@ export function ProductionCapacity(){
       ])
     return (
         <div id="ProductionCapacity" className="fade-in">
-            <img src="https://www.acozzuol.com.ar/eng/img/production_tit.png" alt="" />
+            <img src="/images/production-capacity/production_tit.png" alt="" />
 
             <div id="prod-cap-cont">
                 <div className="prod-list">
