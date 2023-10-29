@@ -8,7 +8,7 @@ ul {
 }
 
 #root {
-  background: no-repeat url("https://www.acozzuol.com.ar/img/fondo_main.jpg");
+  background: no-repeat url("/images/fondo_main.jpg");
   background-size: cover;
   background-position: center;
   /* Fija la imagen de fondo para que no se desplace con el contenido */
@@ -19,7 +19,7 @@ ul {
 
 }
 .content-page {
-  background: no-repeat url("https://www.acozzuol.com.ar/eng/img/fondo_tablas.jpg");
+  background: no-repeat url("/images/fondo_tablas.jpg");
   background-size: cover;
   background-position: center;
   width: 120vh;

@@ -6,7 +6,7 @@ export function Separator() {
     return (
         <>
             <footer id="separator" style={styles}>
-                <img src="https://www.acozzuol.com.ar/eng/img/footer_separa_1.png" alt="" />
+                <img src="/images/footer_separa_1.png" alt="" />
             </footer>
         </>
     )
