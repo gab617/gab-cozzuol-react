@@ -83,7 +83,25 @@
         },
         "images": {
             "aboutImage": "/images/about-us/about_tit_eng.png",
-            "titleSince": "/images/about-us/quines_somos_historia_tit.png"
+            "titleSince": "/images/about-us/quines_somos_historia_tit.png",
+            "titleQuality": "/images/about-us/about_total_quality.png",
+            "plants1": "/images/about-us/quienes_somos_planta01.png",
+            "plants2": "/images/about-us/quienes_somos_planta02.png",
+            "market": [
+                "/images/about-us/quienes_somos_mercados01.png",
+                "/images/about-us/quienes_somos_mercados02.png",
+                "/images/about-us/quienes_somos_mercados03.png"
+            ]
+        },
+        "texts":{
+            "historyTexts": [
+                "Founded by Mr. Albano Cozzuol, the company began its operations in 1953 as a small producer of moulds and dies for different customers. Based on a constant process of investment and downstream value integration, Albano Cozzuol S.A. is currently Argentina s leading producer of plastic parts and components and one of the main manufacturers of Mercosur. Our plants are strategically located to supply an effective and efficient service to our customers, with production units in La Plata and General Pacheco (Province of Buenos Aires) and in Río Grande (Province of Tierra del Fuego).",
+                "Throughout our history, we have acquired deep knowledge and experience about the characteristics of local and regional markets, which together with the quality and training of our human resources, allow us to offer our current and prospective customers an excellent service for the Full Development of Projects."    
+            ],
+            "qualityText": "Albano Cozzuol S.A. es el mayor productor de componentes y conjuntos plásticos de Argentina y uno de los principales de la región (Mercosur), con capacidad propia para el desarrollo integral de proyectos. Todos nuestros procesos se enmarcan y desenvuelven bajo el concepto de Calidad Integral de Gestión, lo que nos ha permitido ocupar un lugar relevante como proveedor de los principales constructores mundiales de automóviles como así también de otras industrias (Electrodomésticos, Alimentación).",
+            "marketsTexts": ["Automotive Ind.","Home Appliances","Food"]
         }
+
+
     }
 }

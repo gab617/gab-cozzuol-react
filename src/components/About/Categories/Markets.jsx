@@ -1,17 +1,18 @@
-export function Markets() {
+// eslint-disable-next-line react/prop-types
+export function Markets({market,marketsTexts}) {
     return (
         <div id="markets-info">
             <div className="img-market">
-                <img src="https://www.acozzuol.com.ar/eng/img/quienes_somos_mercados01.png" alt="" />
-                <h2>Automotive Ind.	</h2>
+                <img src={market[0]} alt="" />
+                <h2>{marketsTexts[0]}</h2>
             </div>
             <div className="img-market">
-                <img src="https://www.acozzuol.com.ar/eng/img/quienes_somos_mercados02.png" alt="" />
-                <h2>Home Appliances</h2>
+                <img src={market[1]} alt="" />
+                <h2>{marketsTexts[1]}</h2>
             </div>
             <div className="img-market">
-                <img src="https://www.acozzuol.com.ar/eng/img/quienes_somos_mercados03.png" alt="" />
-                <h2>Food</h2>
+                <img src={market[2]} alt="" />
+                <h2>{marketsTexts[2]}</h2>
             </div>
         </div>
 

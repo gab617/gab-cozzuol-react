@@ -12,6 +12,9 @@ import { Markets } from "./Categories/Markets"
 comparando asi con "locActual y asi saber que componente renderizar." */
 
 export function About() {
+    console.log(aboutUsData)
+    const { titleSince, titleQuality, plants1, plants2, market } = aboutUsData.images /* IMAGENES */
+    const { historyTexts, qualityText, marketsTexts } = aboutUsData.texts
     const locActual = useLocation()
     const [loc, setLoc] = useState(useLocation())
 
@@ -22,28 +25,40 @@ export function About() {
 
     return (
         <div id="About">
-            <SelectionAbout 
-                aboutUsData={aboutUsData} 
+            <SelectionAbout
+                aboutUsData={aboutUsData}
             />
-            
+
             <div className="info-selection fade-in">
                 {
                     loc == `${aboutUsData.paths.history}` && (
-                        <History />
+                        <History
+                            titleSince={titleSince}
+                            historyTexts={historyTexts}
+
+                        /> /* pasa las imagenes en url por parametros */
                     )
                 }
                 {
                     loc == `${aboutUsData.paths.quality}` && (
-                        <Quality />
+                        <Quality
+                            titleQuality={titleQuality}
+                            qualityText={qualityText}
+                        />
                     )
                 }
                 {
                     loc == `${aboutUsData.paths.plants}` && (
-                        <Plants />)
+                        <Plants
+                            plants1={plants1}
+                            plants2={plants2} />)
                 }
                 {
                     loc == `${aboutUsData.paths.markets}` && (
-                        <Markets />
+                        <Markets
+                            market={market}
+                            marketsTexts={marketsTexts}
+                        />
                     )
                 }
             </div>
