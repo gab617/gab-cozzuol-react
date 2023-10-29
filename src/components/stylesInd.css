@@ -1,9 +1,15 @@
 #foo-options {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 75%;
     margin-left: 2em;
     cursor: pointer;
+}
+
+#separator{
+    background-color: transparent; /* Fondo transparente */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.212); /* Agrega sombra */
+  
 }
 
 
