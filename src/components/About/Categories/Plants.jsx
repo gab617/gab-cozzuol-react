@@ -11,7 +11,6 @@ export function Plants() {
         url : "/images/about-us/quienes_somos_planta02.png"
     }
     if (window.matchMedia('(max-width: 768px)').matches){
-        /* styles.display = 'none' */
         styles2.marginTop = '0'
         styles2.marginBottom = '0'
     }
